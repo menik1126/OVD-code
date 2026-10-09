@@ -1,0 +1,45 @@
+*pyc
+.DS_Store
+
+# Model files and directories
+Simulation_LLM_google_7B/
+*.safetensors
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.model
+
+# Large files
+*.tar.gz
+*.zip
+*.7z
+
+# Cache directories
+.cache/
+__pycache__/
+*.egg-info/
+
+# Build directories
+build/
+dist/
+
+# Wandb logs
+wandb/
+
+# Submodules with large files
+flash-attention/
+/vllm/
+triton/
+
+ZeroSearch_dataset/
+outputs/
+
+train_grpo.sh
+train_grpo.txt
+simulator_vLLM.sh
+simulator_vLLM_sjh.sh
+*.log
+*.txt
+verl_checkpoints/
+ckpt/
